@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="/suhi.png" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Responsive</title>
+    <title>SushiMan</title>
   </head>
 
   <body>
@@ -40,14 +40,20 @@
         </ul>
       </nav>
     </header>
-
+    <!-- ------------HERO SECTION--------------- -->
     <section class="hero">
       <div class="hero-image">
-        <h2>
-          H <br />
-          A <br />
-          I
+        <img 
+          src="assets/sushi-1.png"
+          alt="sushi"
+          data-aos="fade-up"
+        />
+        <h2 data-aos="fade-up">
+          日 <br />
+          本 <br />
+          食
         </h2>
+
         <div class="hero-image__overlay"></div>
       </div>
 
@@ -66,16 +72,69 @@
 
         <div class="hero-content__testimonial">
           <div class="hero-content__customer flex-center">
-            <h4>24 <span>4k+</span> </h4>
+            <h4>24 <span>4k+</span></h4>
             <p>happy</p>
           </div>
 
           <div class="hero-content__review">
-            <img src="assets/user.png" alt="user">
+            <img src="assets/user.png" alt="user" />
             <p>This is the best japannese food</p>
           </div>
-
         </div>
+      </div>
+    </section>
+
+    <!-- ------------ABOUT US SECTION--------------- -->
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-sushi3">
+          <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
+        </div>
+        <button class="about-us__button">
+          Learn more
+          <img src="assets/arrow-up-right.svg" alt="learn more" />
+        </button>
+
+        <div class="about-us__image-sushi2">
+          <img src="assets/sushi-2.png" alt="suhi" data-aos="fade-right" />
+        </div>
+      </div>
+
+      <div class="about-us__content" data-aos="fade-left">
+        <p class="sushi__subtitle">About Us/ Lorem ipsum, dolor sit amet</p>
+        <h3 class="sushi__title">
+          Our mission is to bring true Japanese flavours to you.
+        </h3>
+        <p class="sushi__description">
+          We will continue to provide the experience of Omotenashi, the Japanese
+          mindset of hospitality, with our shopping and dining for our
+          customers.
+        </p>
+      </div>
+    </section>
+    <!-- ------------POPULAR MENU SECTION--------------- -->
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title">Popular Food / 人気</h2>
+      <div class="popular-foods__filters sushi__hide-scrollbar">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="pupular-foods__filter-btn">
+          <img src="/assets/sushi-9.png" alt="sushi 9" />
+          Sushi
+        </button>
+        <button class="pupular-foods__filter-btn">
+          <img src="/assets/sushi-8.png" alt="ramen" />
+          Ramen
+        </button>
+        <button class="pupular-foods__filter-btn">
+          <img src="/assets/sushi-7.png" alt="udon" />
+          Udon
+        </button>
+        <button class="pupular-foods__filter-btn">
+          <img src="/assets/sushi-6.png" alt="danggo" />
+          Danggo
+        </button>
+        <button class="pupular-foods__filter-btn">Others</button>
       </div>
     </section>
 
